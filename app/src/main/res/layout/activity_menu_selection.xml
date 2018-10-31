@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/loophole_logo"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:paddingTop="5dp"
+            android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Read Card"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:background="@drawable/click_event"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/readCard"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Swipe Card"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/click_event"
+                android:textColor="#FFFFFF"
+                android:id="@+id/swipeCard"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Enter Pin"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/click_event"
+                android:textColor="#FFFFFF"
+                android:id="@+id/enterPin"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Print"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/click_event"
+                android:textColor="#FFFFFF"
+                android:id="@+id/print"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="QR Code"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/click_event"
+                android:textColor="#FFFFFF"
+                android:id="@+id/qrCode"/>
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

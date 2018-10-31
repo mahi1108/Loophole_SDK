@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:id="@+id/title"
+        android:text="Title"/>
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/cardnum"
+        android:text="Title"/>
+
+    <LinearLayout style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:measureWithLargestChild="true">
+        <Button style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="@color/red"
+            android:text="cancel" />
+        <Button style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="@color/green_300"
+            android:text="ok" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,622 @@
+<resources>
+    <string name="app_name">KivviDemo</string>
+
+
+    <!--***************************Action title*********************************-->
+
+    <!--***基础***-->
+    <string name="actionBasic">Basic Test-1</string>
+    <string name="basic">Basic </string>
+    <string name="close_log">Close Log</string>
+    <string name="set_time">Set Time</string>
+    <string name="update_pos">Update POS</string>
+    <string name="basic_authroize">Auth</string>
+    <string name="reboot_pos">Reboot POS</string>
+    <string name="get_version">Get Version</string>
+    <string name="open_log">Open Log</string>
+    <string name="basic_bootloader">Update Loader</string>
+    <string name="basic_development">Basic Development</string>
+    <string name="basic_get_time">Get Time</string>
+    <string name="basic_isbusy">Device Is Busy</string>
+    <string name="device_isbusy">device is busy</string>
+    <string name="device_isnotbusy">device is not busy</string>
+    <string name="busy_state_get_fail">get device state failed</string>
+    <string name="basic_led_test">LED Test</string>
+    <string name="basic_led_redOn">Red On</string>
+    <string name="basic_led_redOff">Red Off</string>
+    <string name="basic_led_redBlink">Red Blink</string>
+    <string name="basic_led_greenOn">Green On</string>
+    <string name="basic_led_greenOff">Green Off</string>
+    <string name="basic_led_greenBlink">Green Blink</string>
+    <string name="basic_led_yellowOn">Yellow On</string>
+    <string name="basic_led_yellowOff">Yellow Off</string>
+    <string name="basic_led_yellowBlink">Yellow Blink</string>
+    <string name="basic_led_blueOn">Blue On</string>
+    <string name="basic_led_blueOff">Blue Off</string>
+    <string name="basic_led_blueBlink">Blue Blink</string>
+    <string name="basic_led_DredOn">Dred On</string>
+    <string name="basic_led_DredOff">Dred Off</string>
+    <string name="basic_led_DredBlink">Dred Blink</string>
+    <string name="basic_led_DgreenOn">Dgreen On</string>
+    <string name="basic_led_DgreenOff">Dgreen Off</string>
+    <string name="basic_led_DgreenBlink">Dgreen Blink</string>
+    <string name="Start_blink">Start Blink</string>
+
+    <string name="basic_close_screen">Close exscreen backlight</string>
+    <string name="close_screen_succeed">Exscreen closed successfully</string>
+    <string name="fail_in_close_screen">Exscreen shutdown failed</string>
+    <string name="is_deinit_tran_parameter">Initializing the EMV parameter is being cleared</string>
+    <string name="init_EMV_parameter">Initialize the EMV parameter</string>
+    <string name="is_init_tran_parameter">The EMV parameter is initialized</string>
+    <string name="print_over">Over Printing</string>
+    <string name="Busy">Busy</string>
+    <string name="CashBox">CashBox</string>
+    <string name="Signature">Digital signature</string>
+    <string name="normal_password">Enter password (sequential keyboard)</string>
+    <string name= "basic_closeLogRecord">Close Log Record</string>
+    <string name= "basic_openLogRecord">Open Log Record</string>
+    <string name= "open_logrecord_failed">Open Log Record Success!</string>
+    <string name= "open_logrecord_success">Open Log Record fail !</string>
+
+    <!--***基础***-->
+
+    <!--***打印***-->
+    <string name="actionPrint">Print-7</string>
+    <string name="print">Print</string>
+    <string name="low_paper_detection">Paper Detect</string>
+    <string name="text">Text</string>
+    <string name="feed">Feed</string>
+    <string name="picture">Picture</string>
+    <string name="one_dimensional_code">ODcode</string>
+    <string name="QRcode">QRcode</string>
+    <string name="receipt">receipt</string>
+    <string name="test_print">Print Test</string>
+    <string name="printerversion">version</string>
+    <string name="printerupdate">update</string>
+
+    <!--***打印***-->
+
+    <!--***PinPad***-->
+    <string name="actionPinpad">Pinpad-2</string>
+    <string name="pinpad">pinpad</string>
+    <string name="plainpin">plainpin</string>
+    <string name="calculation_MAC">Calculate MAC</string>
+    <string name="encryption_decryption_test">EN_DE test</string>
+    <string name="RandomNumber">Random</string>
+    <string name="destroy_key">Destroy Key</string>
+    <string name="show_balance">Show Balance</string>
+    <string name="input_password">Input Password</string>
+    <string name="MKSK">MKSK</string>
+    <string name="MK_SK">MK_SK</string>
+    <string name="MKSK_Plain">Plain MKSK</string>
+    <string name="Load_Plain_Mkey">Load Plain Mkey</string>
+    <string name="Load_Plain_Wkey">Load Plain Wkey</string>
+    <string name="load_transfer_key">Load KPK</string>
+    <string name="load_master_key">Load MKey</string>
+    <string name="load_work_key">Load WKey</string>
+    <string name="load_transfer_keyT">T Load KPK</string>
+    <string name="load_master_keyT">T Load MKey</string>
+    <string name="load_work_keyT">T Load WKey</string>
+    <string name="load_transfer_keyTK">TK Load KPK</string>
+    <string name="load_master_keyTK">TK Load MKey</string>
+    <string name="load_work_keyTK">TK Load WKey</string>
+    <string name="encrypt_by_TK">encrypt by TK</string>
+    <string name="encrypt_by_TK_noKPK">encrypt_by_TK_noKPK</string>
+    <string name="Key">Key</string>
+    <string name="DUKPT">DUKPT</string>
+    <string name="FTKEY">FTKEY</string>
+    <string name="LoadKey">LoadKey-1</string>
+
+
+    <string name="loadkey_other">Other-5</string>
+    <string name="loadkey_pin">PIK-2</string>
+    <string name="loadkey_pan">TDK-3</string>
+    <string name="Loadkey_mac">MAK-4</string>
+    <!--***PinPad***-->
+
+
+    <!--***Card***-->
+    <string name="actionCard">Card-4</string>
+
+    <string name="search_card">Search Card-1</string>
+    <string name="EMV_process">EMV Process-2</string>
+    <string name="CardSlot_detect">CardSlot Detect-3</string>
+    <string name="ICCard_detection">ICCard Detect-4</string>
+    <string name="LoadRelatedKey_mint">*LoadRelateKey(mint)-5</string>
+    <string name="direct_trade_mint">*Direct Trade(mint)-6</string>
+    <string name="EMV_acquirer_data_processing_mint">*EMV Issuing Bank Data(mint)-7</string>
+    <string name="direct_trade_old">Direct Trade-8</string>
+    <string name="EMV_acquirer_data_processing_old">EMV Issuing Bank Data-9</string>
+    <string name="direct_trade_jf">*Direct Trade(jf)-10</string>
+    <string name="LoadRelatedKey">LoadRelateKey-11</string>
+
+
+    <string name="Card">Card</string>
+    <string name="BankCard">Bank Card</string>
+    <string name="trade">Trade</string>
+    <string name="direct_trade">Direct Trade</string>
+    <string name="trade_pre">Pre Trade</string>
+    <string name="EMV_acquirer_data_processing">EMV Issuing Bank Data</string>
+    <string name="search_CPUcard">Search CPUCard</string>
+    <!--<string name="search_card">Search Card</string>-->
+    <string name="search_M1Card">Search M1Card</string>
+    <string name="search_BankCard">Search BankCard</string>
+    <string name="search_MSRcard">Search MsrCard</string>
+    <!--<string name="CardSlot_detect">CardSlot Detect</string>-->
+    <!--<string name="EMV_process">EMV Process</string>-->
+    <!--<string name="ICCard_detection">ICCard Detect</string>-->
+    <string name="CMD_EMV_ISSUER_PROC">CMD_EMV_ISSUER_PROC</string>
+    <string name="Mifare">M1Card</string>
+    <string name="MifareSearch">Mifare Search</string>
+    <string name="MifareAuth">Mifare Auth</string>
+    <string name="MifareIncrement">Mifare Increment</string>
+    <string name="MifareDecrement">Mifare Decrement</string>
+    <string name="MifareRead">Mifare Read</string>
+    <string name="MifareWrite">Mifare Write</string>
+    <string name="MSR">MSR</string>
+    <string name="IC">IC</string>
+    <string name="NFC">NFC</string>
+    <string name="CPUCard">CPU Card</string>
+    <string name="IC_apdu">IC_apdu</string>
+    <string name="emv_balance">EMV_balance</string>
+    <string name="emv_log">Trans Log</string>
+    <string name="NFC_apdu">NFC_apdu</string>
+    <string name="process_Apdu">Apdu</string>
+    <!--<string name="LoadRelatedKey">LoadRelatedKey</string>-->
+    <!--***Card***-->
+
+    <!--***Storage***-->
+    <string name="actionStorage">Storage-3</string>
+    <string name="fileRW">FileReadWrite-1</string>
+    <string name="storage">Storage</string>
+    <string name="preserve_Logo">Save Logo</string>
+    <string name="empty_EMV_parameter">Clean Emv</string>
+    <string name="file_store">File Store</string>
+    <string name="delete_file">Delete File</string>
+    <string name="check_read_file">Check ReadFile</string>
+    <string name="load_slide">Load Slide</string>
+    <string name="file_store_2">File Store</string>
+    <string name="check_store_file">CheckStore File</string>
+    <string name="file_read">File Read</string>
+    <string name="load_EMV_parameter">Load EMV param</string>
+    <string name="EMV">EMV</string>
+    <string name="list_files">list the files</string>
+    <string name="directory_store">store the directory</string>
+    <string name="directory_read">read the directory</string>
+    <string name="delete_allfile">format</string>
+    <!--***Storage***-->
+
+    <!--***Scan***-->
+    <string name="actionScan">Scan-6</string>
+    <string name="ScanQRcode">Scan QRcode</string>
+    <!--***Scan***-->
+
+    <!--***exsreen***-->
+    <string name="actionExscreen">Exscreen-5</string>
+    <string name="exscreen">exscreen</string>
+    <string name="standby">standby</string>
+    <string name="display_QRcode">display QRcode</string>
+    <string name="slide">slide</string>
+    <string name="display_UserInfo">display UserInfo</string>
+    <string name="userInfo">userInfo</string>
+    <string name="show_balance_fail">show balance fail</string>
+    <string name="show_transact_result">"Display Transact Result"</string>
+
+    <!--***exsreen***-->
+
+    <!--***serialcom***-->
+    <string name="serialcom">*SeialCom-8</string>
+    <string name="tx">send</string>
+    <string name="rx">recv</string>
+    <string name="flush">flushIO</string>
+    <string name="reset">Reset</string>
+
+    <string name="reset_serial_config">reset serial config</string>
+    <string name="flush_IO">clear Serial cache</string>
+    <string name="recv_Bit">recv Bit</string>
+    <string name="send_Bit">send Bit</string>
+    <!--***serialcom***-->
+
+    <!--***scangun***-->
+    <string name="scangun">scangun-9</string>
+    <string name="start_scangun">start to scan</string>
+    <string name="scangunscan">scan</string>
+    <!--***scangun***-->
+
+    <!--***test***-->
+    <string name="actionFunction_test">Function Test-8</string>
+    <string name="Touch_Panel_test">TP test</string>
+    <string name="LCD_test">LCD test</string>
+    <string name="LED_test">LED test</string>
+    <string name="Beep_test">Beep Test</string>
+    <string name="MSR_test">MSR test</string>
+    <string name="IC_test">IC test</string>
+    <string name="NFC_test">NFC test</string>
+    <string name="Flash_test">FLASH test</string>
+    <string name="Pinpad_test">Pinpad Test</string>
+    <string name="Algorithm_test">Algorithm Test</string>
+    <string name="safety_trigger_test">Safety Test</string>
+    <string name="testAll">TestAll</string>
+    <!--***test***-->
+
+
+
+    <!--********************************Process  title*********************************-->
+    <!--***initialize***-->
+    <string name="initialize">initialize</string>
+    <!--***initialize***-->
+
+
+
+    <!--***************************Action*********************************-->
+
+    <!--#########fuction-action-basic#########-->
+    <!--Authorize-->
+    <string name="authorize_succeed">authorize Succeed</string>
+    <string name="authorize_fail">authorize Fail</string>
+    <!--develop-->
+    <string name="develop_succeed">develop Succeed</string>
+    <string name="develop_fail">develop Fail</string>
+    <!--DisableLog-->
+    <string name="Close_log_ok">Close Log OK</string>
+    <!--EnableLog-->
+    <string name="Open_log_ok">Open Log OK</string>
+    <!--GetTime-->
+    <string name="start_getting_time">Start Getting Time！</string>
+    <string name="get_time_succeed">Get time OK,time is</string>
+    <string name="fail_in_getting_time">Get time fail，Errcode is：</string>
+    <!--GetVersion-->
+    <string name="financial_module_info">Financial Module info：</string>
+    <string name="serial_number">Serial Number is</string>
+    <string name="hardware_version">Hardware Version is</string>
+    <string name="chip_version">"Chip Version: "</string>
+    <string name="firmware_version">Firmware version is</string>
+    <string name="SDK_version">SDK version</string>
+    <string name="KivviDevice_platform">KivviDevice platform is</string>
+    <string name="KivviDevice_version">KivviDevice version is</string>
+    <string name="Safety_trigger_register_values">Safety trigger values are</string>
+    <string name="fail_to_connect_to_pos">Fail to connect to pos</string>
+    <!--RebootPos-->
+    <string name="rebooting_pos">Rebooting Pos...</string>
+    <!--SetTime-->
+    <string name="setting_time">Setting time:</string>
+    <string name="finish_setting_time">finish setting time！</string>
+    <string name="fail_in_setting_time">Fail in setting time：</string>
+    <!--UpdatePos-->
+    <string name="updating_pos">updating Pos！</string>
+    <string name="starting_update">Updating</string>
+    <string name="no_update_file">Can not find the file</string>
+    <!--Ulog-->
+    <string name="close_ulog">Close ulog</string>
+    <string name="open_ulog">Open ulog</string>
+
+
+    <!--#########fuction-action-card#########-->
+    <!--MifareCard-MifareAuth-->
+    <string name="MifareAuth_successful">MifareAuth success！</string>
+    <!--MifareCard-MifareDecrement-->
+    <string name="Decrement_succeed">Decrement succeed</string>
+    <!--MifareCard-MifareIncrement-->
+    <string name="Increment_succeed">Increment succeed</string>
+    <!--MifareCard-MifareRead-->
+    <string name="MifareRead_succeed">MifareRead succeed</string>
+    <!--MifareCard-MifareSearch-->
+    <string name="use_Mifare">use Mifare</string>
+    <string name="failed_of_timeout">failed of timeout</string>
+    <!--MifareCard-MifareWirite-->
+    <string name="MifareWrite_Succeed">MifareWrite Succeed</string>
+    <!---EmvIssuerProc-->
+    <string name="data_type">Data type</string>
+    <string name="data">data :</string>
+    <string name="failed_error_code_is">failed,error code is</string>
+    <string name="error_is">error is</string>
+    <!---EmvProc-->
+    <string name="EMV_processing">EMV processing</string>
+    <string name="Account_is">Account is</string>
+    <string name="track2_is">track2 is</string>
+    <string name="order_number_is">order number is</string>
+    <string name="validity">validity: </string>
+    <string name="EMV_data_type_is">EMV data type is</string>
+    <string name="EMV_data_is">EMV data is</string>
+    <string name="pin_result">the pin result: </string>
+    <!---IcSlot-->
+    <string name="succeed_to_detect_IC_card">succeed to detect IC card，</string>
+    <string name="is_IC_card">Is IC card!</string>
+    <string name="not_IC_card_or_wrong_side">not IC card or wrong side!</string>
+    <string name="not_found_card">not found card!</string>
+    <string name="fail_to_detect_IC_card">Fail to detect IC card，</string>
+    <!---NfcApdu-->
+    <string name="apdu_processing">apdu Processing</string>
+    <string name="NFC_Apdu_succeed">"NFC Apdu success！ "</string>
+    <!---proc-->
+    <!---Search-->
+    <string name="is_MSR_card">Is Msr card</string>
+    <string name="if_is_IC_card">If is IC card</string>
+    <string name="is_NFC_card">Is NFC card</string>
+    <string name="unknown_card_type">unknown card type</string>
+    <string name="IC_MSR_or_NFC">Please use IC、NFC or MSR</string>
+    <string name="please_wait">Please wait</string>
+    <string name="terminated">terminated</string>
+    <string name="please_use">Please use</string>
+
+
+    <!---Slot-->
+    <string name="slot_detected_successfully">Slot detected success!</string>
+    <string name="card_not_found">card not found!</string>
+    <!---Transact-->
+    <string name="transacting">transacting</string>
+    <string name="track2">track2</string>
+    <string name="detected">detected</string>
+    <string name="transaction_request">trade eequest</string>
+    <string name="transaction_confirmation">trade confirmation</string>
+    <string name="Trade_reversal">Trade reversal</string>
+    <string name="off_line_transaction">offline trade</string>
+    <string name="transaction_approval">trade approval</string>
+    <string name="transaction_reject">trade reject</string>
+    <string name="transaction_end">trade end</string>
+    <string name="Trade_refused">trade refused</string>
+    <string name="offline_approval">offline approval</string>
+    <string name="offline_reject">offline reject</string>
+    <string name="power_failure">power failure</string>
+
+    <!--#########Exscreen#########-->
+    <!--DisplayCustomMsg-->
+    <string name="display_ok">display ok,check exscreen</string>
+    <!--DisplayIdle-->
+    <string name="standby_ok">standby ok</string>
+    <!--DisplayQR-->
+    <!--ImageCarousel-->
+    <string name="slide_succeed">slide succeed!</string>
+
+    <!--#########PinPad#########-->
+    <!--MKSK-MK_SK-LoadKpk-->
+    <string name="download_KPK_succeed">download KPK succeed！</string>
+    <string name="download_KPK_fail">download_KPK_fail ：</string>
+    <!--MKSK-MK_SK-LoadMkey-->
+    <string name="download_master_key_succeed">download MKEY success</string>
+    <string name="download_master_key_fail">download MKEY failed：</string>
+    <!--MKSK-MK_SK-LoadWkey-->
+    <string name="load">load</string>
+    <string name="load_succeed">load succeed</string>
+    <string name="load_failure">load failure</string>
+    <!--Authorize-->
+    <string name="developing">developing</string>
+    <!--CaculateMac-->
+    <string name="calculating_MAC">calculating MAC...</string>
+    <string name="MAC_is">MAC is</string>
+    <string name="MAC_type_is">MAC type is</string>
+    <string name="calculate_MAC_fail">calculate MAC fail：</string>
+    <!--Decommission-->
+    <string name="decommission_ok">Decommission OK！</string>
+    <string name="decommission_fail">Decommission fail：</string>
+    <!--DispBalance-->
+    <string name="showing_balance_please_click_ok">showing balance,please click OK</string>
+    <string name="show_balance_ok">show balance success</string>
+    <!--GetPin-->
+    <string name="please_input_password">input password please</string>
+    <string name="execution_fail">execution fail</string>
+    <!--GetPlainPin-->
+    <string name="execution_fail_error_code">failed,errcode is</string>
+    <!--GetRadom-->
+    <string name="get_random_number_fail">get random failed,errcode is</string>
+    <!--TestCrypt-->
+    <string name="result">result：</string>
+    <!--DUKPT-->
+    <string name="Load_init_key">Load init key</string>
+    <string name="Read_KSN">Read KSN</string>
+    <string name="Update_KSN">Update KSN</string>
+    <string name="initkeyenbykpk">initkeyEnbyKPK</string>
+    <string name="load_kpk">load kpk</string>
+
+
+
+    <!--#########Printer#########-->
+    <!--CheckPaper-->
+    <string name="normal">normal</string>
+    <!--Feed-->
+    <string name="Feed_10_Lines">Feed 10 Lines</string>
+    <string name="Feed_100_Pixels">Feed 100 Pixels</string>
+    <!--OBcode-->
+    <string name="print_success">print success</string>
+    <!--Photo-->
+    <!--QRcode-->
+    <!--Receipt-->
+    <string name="card_number">card number: </string>
+    <string name="UnionPay_POS_SalesSlip">UnionPay POS SalesSlip</string>
+    <string name="CommercialTenant_Number">CommercialTenant Number</string>
+    <string name="IssuingBank_Number">IssuingBank Number：</string>
+    <string name="AcquiringBank_Number">AcquiringBank Number：</string>
+    <string name="TransactionType">TransactionType：</string>
+    <string name="BatchNumber">BatchNumber：</string>
+    <string name="Voucher_Number">Voucher Number：</string>
+    <string name="Authorization_Code">Authorization Code：</string>
+    <string name="Reference_Number">Reference Number：</string>
+    <string name="Data_Time">Data/Time：</string>
+    <string name="Amount">Amount：</string>
+    <string name="Remark">Remark：</string>
+    <!--PrintText-->
+    <string name="strange">------------------------------------------------奇怪</string>
+    <string name="strange2">________________________________________________奇怪X2</string>
+    <string name="default_font">默认字体</string>
+    <string name="font_font">加大字字体</string>
+    <string name="common_font">普通字体12345678asdfghjk</string>
+    <string name="weight_font">加粗字体12345678asdfghjk</string>
+    <string name="tilt_font">倾斜字体12345678asdfghjk</string>
+    <string name="bold_font_tilt">加粗倾斜字体12345678asdfghjk</string>
+    <string name="set_left_limit">设置左限距</string>
+    <string name="set_right_limit">设置右限距12345678900---asdfgfghhjkjklmnbvcddsssssssssssssss</string>
+    <string name="set_row_spacing">设置行间距</string>
+    <string name="set_font_font_GB18030">设置字体:仿宋_GB18030</string>
+    <string name="set_font_italics_GB18030">设置字体:楷体_GB18030</string>
+    <!--TestPrint-->
+    <string name="start_printing">start printing</string>
+
+    <!--#########ScanAction#########-->
+    <string name="Scanning_Result">Scanning result</string>
+    <string name="Scanning_Failed">Scanning failed</string>
+    <string name="User_Cancel">User cancel</string>
+
+    <!--#########Storage#########-->
+    <!--CheckReadFile-->
+    <string name="ReadCheck_Error">ReadCheck Error</string>
+    <string name="Length_is">Length is</string>
+    <string name="ReadCheck_Success">ReadCheck Success</string>
+    <string name="ReadCheck_Fail">ReadCheck Fail</string>
+    <!--CheckStoreFile-->
+    <string name="StoreFile">StoreFile :</string>
+    <string name="Date_Inputting">Date Inputting....</string>
+    <string name="Store_Success">Store Success</string>
+    <string name="Store_Fail">Store Fail</string>
+    <!--EmvParams-->
+    <string name="clean_EMV_parameter">clean EMV param</string>
+    <string name="success">success</string>
+    <!--DeleteFile-->
+    <string name="file_store_delete_file">file store:delete file</string>
+    <string name="delete_file_success">delete file success!</string>
+    <string name="delete_file_fail_error_code">delete file fail,error code: </string>
+    <!--ReadFile-->
+    <string name="Read_Error">Read Error</string>
+    <string name="Read_Success">Read Success</string>
+    <string name="Read_Fail">Read Fail</string>
+    <!--StoreBitmap-->
+    <string name="load_the">load the</string>
+    <string name="failure">failure</string>
+    <string name="start_load_the_number">start load the number</string>
+    <string name="picture_load_ok">picture load ok</string>
+    <string name="loading_the_3rd_picture">loading the 3rd picture</string>
+    <string name="Expend_150_second">Expend 150 second</string>
+    <!--StoreEmvParams-->
+    <string name="is_loading_tran_parameter">is loading tran parameter</string>
+    <string name="load_AID_ok">load AID ok</string>
+    <string name="load_AID_fail">load AID fail </string>
+    <string name="load_CAPK_ok">load CAPK ok</string>
+    <string name="load_CAPK_fail">load CAPK fail</string>
+    <!--StoreFile-->
+    <string name="file_reading">file reading</string>
+    <string name="file_inputting">file inputting</string>
+    <string name="file_store_success">file store success</string>
+    <string name="file_store_fail">file store fail</string>
+    <!--StoreFile2-->
+    <!--StoreLogo-->
+    <string name="save_logo">Save Logo</string>
+    <string name="preserve_Logo_success">preserve Logo success</string>
+    <string name="preserve_Loge_fail">preserve Loge fail</string>
+
+    <!--#########Test#########-->
+    <string name="Test_OK">Test : OK</string>
+    <string name="Test_false">Test false</string>
+    <string name="operate_on_pinpad">operate on pinpad</string>
+    <string name="swipe_IC_card_please">swipe IC card please</string>
+    <string name="swipe_MSR_card_please">swipe MSR card please</string>
+    <string name="swipe_NFC_card_please">swipe NFC card please</string>
+    <string name="input_1to8_on_the_pos">input 1to8 on the pos</string>
+    <string name="All_tests_are_OK">All tests are OK!</string>
+    <string name="Test_fail_please_check_out">Test fail，please check out</string>
+    <string name="please_do">please do</string>
+    <string name="please_to_do">please to do</string>
+    <string name="operation_first">operation first</string>
+    <string name="load_EMV_complete">load EMV complete</string>
+    <string name="Reading_CheckFile">Reading CheckFile...</string>
+
+
+
+    <!--***************************Process*********************************-->
+    <!--###Exscreen###-->
+    <string name="Cynovo_2222_333"><![CDATA[CYNOVO&2222&333&]]></string>
+    <string name="test_screen_standby">test screen standby</string>
+    <string name="make_sure_Loaded_images">make sure Loaded images</string>
+    <string name="else_screen_is_empty">else screen is empty</string>
+    <!--###initialize###-->
+    <string name="clear_EMV">clear EMV</string>
+    <string name="do_not_repeat">do not repeat</string>
+    <string name="In_this_order_to_load_key">In this order to load key:KPK,Mkey,Wkey</string>
+    <string name="download_transfer_key_for_master_encryption">Success,KPK is for Mkey</string>
+    <string name="download_KPK_fail_error_code">download KPK failed,errcode is</string>
+    <string name="master_key_for_work_key_loading_master_key">Mkey is for Wkey,Loading Mkey......</string>
+    <string name="loading_work_key">Loading Wkey...</string>
+
+    <string name="transfer_EMV_param_for_after_EMV_handler">Loading EMV for EMV processing</string>
+
+    <!--###trade###-->
+    <string name="EMV_data_type">EMV data type</string>
+    <string name="result_of_pinpad">"pin result: "</string>
+    <string name="EMV_data">EMV data</string>
+    <string name="text_non_access_card_before_search_searching_being">Please search NFC at first,searching...</string>
+    <string name="init_before_search_card">please make sure initial has done before search</string>
+    <string name="analog_search_card_input_password_or_EMV_process">Trade process simulate searching,inputting passward or EMV processing</string>
+    <string name="detected_magnetic_card">Detected MSR card</string>
+    <string name="detected_IC_card">Detected IC card</string>
+    <string name="detected_non_access_card">Detected unknown card</string>
+    <string name="unkonwn_card_type">unknown card type</string>
+    <string name="error_code">error code is</string>
+    <string name="picture_load_ok_can_slide">piceture load OK,is able to slide</string>
+    <string name="please_load_picture_after_show">please load picture at first,then use showing picture</string>
+    <string name="please_search_card_first">please search card first</string>
+    <string name="EMV_processing_fail">EMV failed, errcode is </string>
+    <string name="whether_IC_card">whether IC card </string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="abnormal_result">abnormal result:</string>
+    <string name="already_terminated">is stopped</string>
+    <string name="time_out">failed for time out</string>
+    <string name="fail_for">failed fo</string>
+    <string name="operation_fail">operation fail </string>
+    <string name="fail_description">fail description:</string>
+
+
+    <!--************************Public Keys********************************-->
+    <string name="action_settings">setting</string>
+    <string name="operation">operation</string>
+    <string name="stop">stop</string>
+    <string name="express">Plain Key：</string>
+    <string name="OBcode">OBcode</string>
+    <string name="sign">sign</string>
+    <string name="error">error：</string>
+    <string name="read_file">read file</string>
+    <string name="data_read">data read</string>
+    <string name="length">length</string>
+    <string name="data_input">data input</string>
+    <string name="file_input">file input</string>
+    <string name="consume">consume</string>
+    <string name="stop_action">stop action</string>
+    <string name="stop_success">stop success!</string>
+    <string name="no_task_run">no task runing</string>
+
+    <!--****************************8583_Transact******************************-->
+    <string name="transaction_8583">8583 trade</string>
+    <string name="search_non_access_card_NFCSelect_1">Search NFC|NfcSelect-1</string>
+    <string name="search_non_access_card_NFCApdu_2">Search NFC|NfcApdu-2</string>
+    <string name="search_non_card_MiAtuth_3">Search NFC|MiAtuth-3</string>
+    <string name="search_non_access_card_MiTransfer_4">Search NFC|MiTransfer-4</string>
+    <string name="search_non_access_MiRestore_5">Search NFC|MiRestore-5</string>
+    <string name="search_non_access_card_MiReadBlock_6">Search NFC|MiReadBlock-6</string>
+    <string name="search_non_access_MiWriteBlock_7">Search NFC|MiWriteBlock-7</string>
+    <string name="search_non_access_card_MiIncrement_8">Search NFC|MiIncrement-8</string>
+    <string name="search_non_access_MiDecrement_9">Search NFC|MiDecrement-9</string>
+    <string name="search_non_access_card">please search card first</string>
+
+    <!--*************************Activity_main*******************************-->
+    <string name="clear_operation_instruction">Clear All</string>
+    <string name="function_test">Function Test</string>
+    <string name="process_test">Process Test</string>
+    <string name="is_running">The class is running is:</string>
+    <string name="backToStandby">back to standby</string>
+    <string name="factory_test">factory test</string>
+    <string name="Interface">Interface</string>
+    <string name="initFileSystem">init file system</string>
+    <string name="main_devices_info">main devices info</string>
+    <string name="DUKPT_Trade">DUKPT Trade</string>
+    <string name="Load_Use_Key">load and use key</string>
+    <string name="MKSK_Trade">MKSK Trade</string>
+    <string name="Scancode">Scan code</string>
+    <string name="input_key_to_test_ksn_update">input key to test after update KSN to test if creat and new work key</string>
+    <string name="password_test">password test</string>
+
+
+    <string name="position">position：</string>
+    <string name="root">root</string>
+    <string name="app_version">app version: </string>
+
+</resources>
+
+

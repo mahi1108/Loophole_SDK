@@ -1,0 +1,648 @@
+<resources>
+    <string name="app_name">KivviDemo</string>
+
+
+    <!--***************************Action title*********************************-->
+
+    <!--***基础***-->
+    <string name="Interface">接口</string>
+    <string name="actionBasic">基础测试-1</string>
+    <string name="basic">基础</string>
+    <string name="close_log">关闭Log</string>
+    <string name="set_time">设置时间</string>
+    <string name="update_pos">更新POS</string>
+    <string name="basic_authroize">授权</string>
+    <string name="reboot_pos">重启POS</string>
+    <string name="get_version">获取版本</string>
+    <string name="open_log">打开Log</string>
+    <string name="basic_bootloader">升级Loader</string>
+    <string name="basic_development">开发者模式</string>
+    <string name="basic_get_time">获取时间</string>
+    <string name="basic_isbusy">设备繁忙</string>
+    <string name="device_isbusy">当前处于BUSY状态</string>
+    <string name="device_isnotbusy">当前非BUSY状态</string>
+    <string name="busy_state_get_fail">取BUSY指令执行失败</string>
+    <string name="basic_led_test">LED灯测试</string>
+    <string name="basic_led_redOn">红灯亮</string>
+    <string name="basic_led_redOff">红灯灭</string>
+    <string name="basic_led_redBlink">红灯闪</string>
+    <string name="basic_led_greenOn">绿灯亮</string>
+    <string name="basic_led_greenOff">绿灯灭</string>
+    <string name="basic_led_greenBlink">绿灯闪</string>
+    <string name="basic_led_yellowOn">黄灯亮</string>
+    <string name="basic_led_yellowOff">黄灯灭</string>
+    <string name="basic_led_yellowBlink">黄灯闪</string>
+    <string name="basic_led_blueOn">蓝灯亮</string>
+    <string name="basic_led_blueOff">蓝灯灭</string>
+    <string name="basic_led_blueBlink">蓝灯闪</string>
+    <string name="basic_led_DredOn">红灯亮</string>
+    <string name="basic_led_DredOff">红灯灭</string>
+    <string name="basic_led_DredBlink">红灯闪</string>
+    <string name="basic_led_DgreenOn">绿灯亮</string>
+    <string name="basic_led_DgreenOff">绿灯灭</string>
+    <string name="basic_led_DgreenBlink">绿灯闪</string>
+    <string name="Start_blink">闪灯开始</string>
+    <string name="open_ulog">打开金融Log</string>
+    <string name="close_ulog">关闭金融Log</string>
+    <string name="basic_close_screen">关闭小屏背光</string>
+    <string name="close_screen_succeed">小屏关闭成功</string>
+    <string name="fail_in_close_screen">小屏关闭失败</string>
+    <string name="is_deinit_tran_parameter">正在清除初始化EMV参数</string>
+    <string name="init_EMV_parameter">初始化EMV参数</string>
+    <string name="is_init_tran_parameter">正在初始化EMV参数</string>
+    <string name="print_over">打印结束</string>
+    <string name="Busy">Busy</string>
+    <string name="CashBox">钱箱</string>
+    <string name="Signature">Digital signature</string>
+    <string name="normal_password">输入密码(顺序键盘)</string>
+
+    <string name= "basic_closeLogRecord">关闭日志抓取</string>
+    <string name= "basic_openLogRecord">打开日志抓取</string>
+    <string name= "open_logrecord_failed">打开抓取日志成功</string>
+    <string name= "open_logrecord_success">打开抓取日志失败</string>
+
+    <!--<string name= "stop">打开抓取日志失败</string>-->
+
+
+    <!--***基础***-->
+
+    <!--***打印***-->
+    <string name="actionPrint">打印-7</string>
+    <string name="print">打印</string>
+    <string name="low_paper_detection">缺纸检测</string>
+    <string name="text">文字</string>
+    <string name="feed">走纸</string>
+    <string name="picture">图片</string>
+    <string name="one_dimensional_code">一维码</string>
+    <string name="QRcode">二维码</string>
+    <string name="receipt">小票</string>
+    <string name="test_print">打印测试</string>
+    <string name="printerversion">版本</string>
+    <string name="printerupdate">升级</string>
+    <!--***打印***-->
+
+    <!--***PinPad***-->
+    <string name="actionPinpad">密码键盘-2</string>
+    <string name="pinpad">密码键盘</string>
+    <string name="plainpin">输入明文</string>
+    <string name="calculation_MAC">计算MAC</string>
+    <string name="encryption_decryption_test">加解密测试</string>
+    <string name="RandomNumber">随机数</string>
+    <!--<string name="RandomNumber">数字签名</string>-->
+    <string name="destroy_key">销毁密钥</string>
+    <string name="show_balance">显示余额</string>
+    <string name="input_password">输入密码</string>
+    <string name="password_test">输密测试</string>
+    <string name="MKSK">MKSK</string>
+    <string name="MK_SK">MK_SK</string>
+    <string name="MKSK_Plain">明文MKSK</string>
+    <string name="Load_Plain_Mkey">加载明文主密钥</string>
+    <string name="Load_Plain_Wkey">加载明文工作密钥</string>
+    <string name="load_transfer_key">加载KPK</string>
+    <string name="load_master_key">加载主密钥</string>
+    <string name="load_work_key">加载工作密钥</string>
+    <string name="load_transfer_keyT">T加载传输密钥</string>
+    <string name="load_master_keyT">T加载主密钥</string>
+    <string name="load_work_keyT">T加载工作密钥</string>
+    <string name="load_transfer_keyTK">TK加载传输密钥</string>
+    <string name="load_master_keyTK">TK加载主密钥</string>
+    <string name="load_work_keyTK">TK加载工作密钥</string>
+    <string name="encrypt_by_TK">由TK加密</string>
+    <string name="encrypt_by_TK_noKPK">无kpk由TK加密</string>
+    <string name="Key">秘钥</string>
+    <string name="DUKPT">DUKPT</string>
+    <string name="initkeyenbykpk">initkeyEnbyKPK</string>
+    <string name="initkeyPlain">initkeyPlain</string>
+    <string name="FTKEY">FTKEY</string>
+    <string name="LoadKey">加载秘钥-1</string>
+    <string name="Load_init_key">加载初始密钥</string>
+    <string name="Read_KSN">读取KSN</string>
+    <string name="Update_KSN">更新KSN</string>
+    <string name="loadkey_other">其他-5</string>
+    <string name="input_tip">输入小费</string>
+    <string name="loadkey_pin">PIK-2</string>
+    <string name="loadkey_pan">TDK-3</string>
+    <string name="Loadkey_mac">MAK-4</string>
+    <string name="loadkpk">加载KPK</string>
+
+    <!--***PinPad***-->
+
+    <!--***EvE***-->
+    <string name="actionEve">eve-11</string>
+
+    <!--***Card***-->
+    <string name="actionCard">卡片-4</string>
+
+    <string name="search_card">搜卡-1</string>
+    <string name="EMV_process">EMV处理-2</string>
+    <string name="CardSlot_detect">卡槽检测-3</string>
+    <string name="ICCard_detection">IC卡检测-4</string>
+    <string name="LoadRelatedKey_mint">*加载相关密钥(mint)-5</string>
+    <string name="direct_trade_mint">*直接交易(mint)-6</string>
+    <string name="EMV_acquirer_data_processing_mint">*EMV发卡行数据处理(mint)-7</string>
+    <string name="direct_trade_old">直接交易-8</string>
+    <string name="EMV_acquirer_data_processing_old">EMV发卡行数据处理-9</string>
+    <string name="direct_trade_jf">*直接交易(jf)-10</string>
+    <string name="LoadRelatedKey">加载相关密钥-11</string>
+
+
+
+
+
+    <string name="Card">卡片</string>
+    <string name="BankCard">银行卡</string>
+    <string name="trade">交易</string>
+    <string name="direct_eve_trade">直接交易(事件)</string>
+    <string name="DUKPT_Trade">DUKPT交易</string>
+    <string name="MKSK_Trade">MKSK交易</string>
+    <string name="trade_pre">交易准备</string>
+    <string name="search_CPUcard">搜CPU卡</string>
+    <string name="search_emv_card">搜芯片卡</string>
+    <string name="search_mifare_card">搜Mifare卡</string>
+    <string name="search_M1Card">搜M1卡</string>
+    <string name="search_BankCard">搜银行卡</string>
+    <string name="search_MSRcard">搜磁条卡</string>
+
+
+
+    <string name="CMD_EMV_ISSUER_PROC">CMD_EMV_ISSUER_PROC</string>
+    <string name="Mifare">M1卡</string>
+    <string name="MifareSearch">搜M1卡</string>
+    <string name="MifareAuth">认证M1卡</string>
+    <string name="MifareIncrement">自加一</string>
+    <string name="MifareDecrement">自减一</string>
+    <string name="MifareRead">M1卡读取</string>
+    <string name="MifareWrite">M1卡写入</string>
+    <string name="MSR">磁条卡</string>
+    <string name="IC">芯片卡</string>
+    <string name="NFC">非接触卡</string>
+    <string name="CPUCard">CPU卡</string>
+    <string name="IC_apdu">IC卡apdu</string>
+    <string name="emv_balance">芯片卡余额</string>
+    <string name="term_param">终端参数设置</string>
+    <string name="emv_log">交易日志</string>
+    <string name="NFC_apdu">NFC卡apdu</string>
+    <string name="process_Apdu">Apdu</string>
+
+
+    <!--***Card***-->
+
+    <!--***Storage***-->
+    <string name="actionStorage">存储-3</string>
+    <string name="fileRW">文件读写-1</string>
+    <string name="storage">存储</string>
+    <string name="preserve_Logo">保存Logo</string>
+    <string name="empty_EMV_parameter">清空EMV参数</string>
+    <string name="file_store">文件存储</string>
+    <string name="delete_file">删除文件</string>
+    <string name="delete_allfile">删除所有文件</string>
+    <string name="check_read_file">校验文件读取</string>
+    <string name="load_slide">加载轮播图片</string>
+    <string name="file_store_2">文件存储2</string>
+    <string name="check_store_file">校验文件存储</string>
+    <string name="file_read">文件读取</string>
+    <string name="directory_read">文件夹读取</string>
+    <string name="load_EMV_parameter">加载EMV参数</string>
+    <string name="EMV">EMV</string>
+    <string name="EMV_PARAMSET">配置EMV参数</string>
+    <string name="store_HTK">下载HTK程序</string>
+    <string name="directory_store">文件夹存储</string>
+    <string name="list_files">文件列举</string>
+    <!--***Storage***-->
+
+    <!--***EMV***-->
+    <string name="actionEMV">EMV-9</string>
+    <!--***EMV***-->
+
+    <!--***Mifare***-->
+    <string name="actionMifare">Mifare-10</string>
+    <!--***Mifare***-->
+
+    <!--***Scan***-->
+    <string name="actionScan">扫码-6</string>
+    <string name="ScanQRcode">扫描二维码</string>
+    <string name="Scancode">扫码</string>
+
+    <!--***Scan***-->
+
+    <!--***exsreen***-->
+    <string name="actionExscreen">小屏显示-5</string>
+    <string name="exscreen">小屏显示</string>
+    <string name="standby">小屏待机</string>
+    <string name="display_QRcode">显示二维码</string>
+    <string name="slide">图片轮播</string>
+    <string name="display_UserInfo">显示用户信息</string>
+    <string name="userInfo">用户信息</string>
+    <string name="show_balance_fail">余额显示失败</string>
+    <string name="show_transact_result">显示联机结果</string>
+    <!--***exsreen***-->
+
+    <!--***serialcom***-->
+    <string name="serialcom">*串口-8</string>
+    <string name="tx">发送</string>
+    <string name="rx">接收</string>
+    <string name="flush">清除缓存</string>
+    <string name="reset">重置串口</string>
+    <string name="openserial">打开串口</string>
+    <string name="closeserial">关闭串口</string>
+
+    <string name="reset_serial_config">重新配置串口参数</string>
+    <string name="flush_IO">清除串口缓存</string>
+    <string name="recv_Bit">接收字节</string>
+    <string name="send_Bit">发送字节</string>
+    <!--***serialcom***-->
+
+    <!--***scangun***-->
+    <string name="scangun">扫描枪-9</string>
+    <string name="start_scangun">开始扫描</string>
+    <string name="scangunscan">扫描</string>
+    <!--***scangun***-->
+
+    <!--***test***-->
+    <string name="factory_test">工厂测试</string>
+    <string name="actionFunction_test">生产功能测试-8</string>
+    <string name="Touch_Panel_test">触摸屏测试</string>
+    <string name="LCD_test">LCD显示测试</string>
+    <string name="LED_test">LED指示灯测试</string>
+    <string name="Beep_test">蜂鸣器测试</string>
+    <string name="MSR_test">磁条卡测试</string>
+    <string name="IC_test">接触IC卡测试</string>
+    <string name="NFC_test">非接卡测试</string>
+    <string name="Flash_test">FLASH测试</string>
+    <string name="Pinpad_test">密码键盘测试</string>
+    <string name="Algorithm_test">Algorithm算法测试</string>
+    <string name="safety_trigger_test">安全触发测试</string>
+    <string name="testAll">TestAll</string>
+    <string name="backToStandby">回到待机界面</string>
+    <!--***test***-->
+
+
+
+    <!--********************************Process  title*********************************-->
+    <!--***initialize***-->
+    <string name="initialize">初始化准备</string>
+    <!--***initialize***-->
+
+
+
+    <!--***************************Action*********************************-->
+
+    <!--#########fuction-action-basic#########-->
+    <!--Authorize-->
+    <string name="authorize_succeed">授权成功</string>
+    <string name="authorize_fail">授权失败</string>
+    <!--develop-->
+    <string name="develop_succeed">开发者模式登陆成功</string>
+    <string name="develop_fail">开发者模式登陆失败</string>
+    <!--DisableLog-->
+    <string name="Close_log_ok">关闭Log成功</string>
+    <!--EnableLog-->
+    <string name="Open_log_ok">打开Log成功</string>
+    <!--GetTime-->
+    <string name="start_getting_time">开始获取时间！</string>
+    <string name="get_time_succeed">获取时间成功,时间为：</string>
+    <string name="fail_in_getting_time">获取时间失败，错误码为：</string>
+    <!--GetVersion-->
+    <string name="financial_module_info">金融模块信息：</string>
+    <string name="main_devices_info">主设备信息:</string>
+    <string name="serial_number">"序列号: "</string>
+    <string name="hardware_version">"硬件版本: "</string>
+    <string name="chip_version">"芯片版本: "</string>
+    <string name="firmware_version">"固件版本: "</string>
+    <string name="SDK_version">"SDK版本: "</string>
+    <string name="KivviDevice_platform">"KivviDevice平台: "</string>
+    <string name="KivviDevice_version">"KivviDevice版本: "</string>
+    <string name="Safety_trigger_register_values">"安全触发寄存器值: "</string>
+    <string name="fail_to_connect_to_pos">连接金融模块失败,错误码为：</string>
+    <!--RebootPos-->
+    <string name="rebooting_pos">正在重启金融模块...</string>
+    <!--SetTime-->
+    <string name="setting_time">开始设置时间:</string>
+    <string name="finish_setting_time">时间设置成功！</string>
+    <string name="fail_in_setting_time">设置时间失败，错误码为：</string>
+    <!--UpdatePos-->
+    <string name="updating_pos">开始更新POS！</string>
+    <string name="starting_update">开始升级</string>
+    <string name="no_update_file">没有找到文件</string>
+
+    <!--#########fuction-action-card#########-->
+    <!--MifareCard-MifareAuth-->
+    <string name="MifareAuth_successful">MifareAuth 成功！</string>
+    <!--MifareCard-MifareDecrement-->
+    <string name="Decrement_succeed">减一操作成功</string>
+    <!--MifareCard-MifareIncrement-->
+    <string name="Increment_succeed">加一操作成功</string>
+    <!--MifareCard-MifareRead-->
+    <string name="MifareRead_succeed">读M1卡成功</string>
+    <!--MifareCard-MifareSearch-->
+    <string name="use_Mifare">请挥Mifare卡</string>
+    <string name="failed_of_timeout">失败, 原因：操作超时</string>
+    <!--MifareCard-MifareWirite-->
+    <string name="MifareWrite_Succeed">写M1卡成功</string>
+    <!---EmvIssuerProc-->
+    <string name="data_type">"数据类型: "</string>
+    <string name="data">"数据: "</string>
+    <string name="failed_error_code_is">"失败！错误码: "</string>
+    <string name="error_is">" 错误描述: "</string>
+    <!---EmvProc-->
+    <string name="EMV_processing">正在进行EMV处理</string>
+    <string name="Account_is">"帐号: "</string>
+    <string name="track2_is">"磁道2: "</string>
+    <string name="order_number_is">"序号: "</string>
+    <string name="validity">有效期: </string>
+    <string name="ServiceCode">服务码: </string>
+    <string name="EMV_data_type_is">"EMV数据类型: "</string>
+    <string name="EMV_data_is">"EMV数据: "</string>
+    <string name="pin_result">密码键盘结果: </string>
+
+    <!---IcSlot-->
+    <string name="succeed_to_detect_IC_card">IC卡检测成功，</string>
+    <string name="is_IC_card">插入卡片为IC芯片卡!</string>
+    <string name="not_IC_card_or_wrong_side">插入卡片不是IC芯片卡(或插反)!</string>
+    <string name="not_found_card">未检测到卡片!</string>
+    <string name="fail_to_detect_IC_card">IC卡检测失败，</string>
+    <!---NfcApdu-->
+    <string name="apdu_processing">正在进行apdu操作</string>
+    <string name="NFC_Apdu_succeed">"NFC Apdu 成功！ "</string>
+    <!---proc-->
+    <!---Search-->
+    <string name="is_MSR_card">"检测到磁条卡"</string>
+    <string name="if_is_IC_card">"是否IC卡? "</string>
+    <string name="is_NFC_card">检测到非接卡</string>
+    <string name="unknown_card_type">未知卡类别</string>
+    <string name="IC_MSR_or_NFC">请插IC卡 或 刷磁条卡 或 挥卡</string>
+    <string name="IC_or_NFC">请插IC卡 或 挥卡</string>
+    <string name="please_wait">请稍等</string>
+    <string name="terminated">已中止</string>
+    <string name="please_use">请使用</string>
+
+
+    <!---Slot-->
+    <string name="slot_detected_successfully">卡槽检测成功!</string>
+    <string name="card_not_found">卡槽检测成功，未检测到卡片!</string>
+    <!---Transact-->
+    <string name="transacting">正在进行交易操作</string>
+    <string name="track2">"磁道2: "</string>
+    <string name="detected">检测到</string>
+    <string name="transaction_request">交易请求</string>
+    <string name="transaction_confirmation">交易确认</string>
+    <string name="Trade_reversal">交易冲正</string>
+    <string name="off_line_transaction">离线交易</string>
+    <string name="transaction_approval">交易批准</string>
+    <string name="transaction_reject">交易拒绝</string>
+    <string name="transaction_end">交易终止</string>
+    <string name="Trade_refused">交易拒绝，不允许服务</string>
+    <string name="offline_approval">脱机批准</string>
+    <string name="offline_reject">脱机拒绝</string>
+    <string name="power_failure">上电失败</string>
+
+    <!--#########Exscreen#########-->
+    <!--DisplayCustomMsg-->
+    <string name="display_ok">显示成功，请查看前屏</string>
+    <!--DisplayIdle-->
+    <string name="standby_ok">待机成功</string>
+    <!--DisplayQR-->
+    <!--ImageCarousel-->
+    <string name="slide_succeed">图片轮播成功!</string>
+
+    <!--#########PinPad#########-->
+    <!--MKSK-MK_SK-LoadKpk-->
+    <string name="download_KPK_succeed">下载KPK成功！</string>
+    <string name="download_KPK_fail">下载KPK失败，错误码：</string>
+    <!--MKSK-MK_SK-LoadMkey-->
+    <string name="download_master_key_succeed">下载主秘钥成功</string>
+    <string name="download_master_key_fail">下载主秘钥失败，错误码：</string>
+    <!--MKSK-MK_SK-LoadWkey-->
+    <string name="load">加载</string>
+    <string name="load_succeed">... [成功]</string>
+    <string name="load_failure">... [失败|</string>
+    <!--Authorize-->
+    <string name="developing">功能尚未完善</string>
+    <!--CaculateMac-->
+    <string name="calculating_MAC">正在计算MAC...</string>
+    <string name="MAC_is">计算得MAC：</string>
+    <string name="MAC_type_is">MAC类型</string>
+    <string name="calculate_MAC_fail">计算MAC失败! 错误码：</string>
+    <!--Decommission-->
+    <string name="decommission_ok">Decommission 成功！</string>
+    <string name="decommission_fail">Decommission 失败，错误码：</string>
+    <!--DispBalance-->
+    <string name="showing_balance_please_click_ok">正在显示余额中...，请点击确认按钮</string>
+    <string name="show_balance_ok">余额显示成功，请查看前屏</string>
+    <!--GetPin-->
+    <string name="please_input_password">请输入密码</string>
+    <string name="execution_fail">失败, 原因：指令执行失败</string>
+    <!--GetPlainPin-->
+    <string name="execution_fail_error_code">执行失败! 错误码：</string>
+    <!--GetRadom-->
+    <string name="get_random_number_fail">取随机数失败! 错误码：</string>
+    <!--TestCrypt-->
+    <string name="result">结果：</string>
+
+    <!--#########Printer#########-->
+    <!--CheckPaper-->
+    <string name="normal">正常</string>
+    <!--Feed-->
+    <string name="Feed_10_Lines">走纸10行</string>
+    <string name="Feed_100_Pixels">走纸100个象数点</string>
+    <!--OBcode-->
+    <string name="print_success">打印成功</string>
+    <!--Photo-->
+    <!--QRcode-->
+    <!--Receipt-->
+    <string name="card_number">卡号: </string>
+    <string name="UnionPay_POS_SalesSlip">银联POS签购单</string>
+    <string name="CommercialTenant_Number">商户编号</string>
+    <string name="IssuingBank_Number">发卡行号：</string>
+    <string name="AcquiringBank_Number">收单行号：</string>
+    <string name="TransactionType">交易类别：</string>
+    <string name="BatchNumber">批次号：</string>
+    <string name="Voucher_Number">凭证号：</string>
+    <string name="Authorization_Code">授权码：</string>
+    <string name="Reference_Number">参考号：</string>
+    <string name="Data_Time">日期/时间：</string>
+    <string name="Amount">金额：</string>
+    <string name="Remark">备注：</string>
+    <!--PrintText-->
+    <string name="strange">------------------------------------------------奇怪</string>
+    <string name="strange2">________________________________________________奇怪X2</string>
+    <string name="default_font">默认字体</string>
+    <string name="font_font">加大字字体</string>
+    <string name="common_font">普通字体12345678asdfghjk</string>
+    <string name="weight_font">加粗字体12345678asdfghjk</string>
+    <string name="tilt_font">倾斜字体12345678asdfghjk</string>
+    <string name="bold_font_tilt">加粗倾斜字体12345678asdfghjk</string>
+    <string name="set_left_limit">设置左限距</string>
+    <string name="set_right_limit">设置右限距12345678900---asdfgfghhjkjklmnbvcddsssssssssssssss</string>
+    <string name="set_row_spacing">设置行间距</string>
+    <string name="set_font_font_GB18030">设置字体:仿宋_GB18030</string>
+    <string name="set_font_italics_GB18030">设置字体:楷体_GB18030</string>
+    <!--TestPrint-->
+    <string name="start_printing">开始打印</string>
+
+    <!--#########ScanAction#########-->
+    <string name="Scanning_Result">"扫码结果： "</string>
+    <string name="Scanning_Failed">扫码失败：</string>
+    <string name="User_Cancel">用户取消</string>
+
+    <!--#########Storage#########-->
+    <!--CheckReadFile-->
+    <string name="ReadCheck_Error">校验文件内容读取有误</string>
+    <string name="Length_is">" 长度="</string>
+    <string name="ReadCheck_Success">校验文件读取成功</string>
+    <string name="ReadCheck_Fail">校验文件读取失败</string>
+    <!--CheckStoreFile-->
+    <string name="StoreFile">文件存储:</string>
+    <string name="Date_Inputting">数据输入，请稍等....</string>
+    <string name="Store_Success">校验文件存储成功</string>
+    <string name="Store_Fail">校验文件存储失败</string>
+    <!--EmvParams-->
+    <string name="clean_EMV_parameter">清空EMV参数 </string>
+    <string name="success">成功</string>
+    <!--DeleteFile-->
+    <string name="file_store_delete_file">文件存储:删除文件</string>
+    <string name="file_store_delete_all_file">文件存储:删除所有文件</string>
+    <string name="delete_file_success">删除文件成功!</string>
+    <string name="delete_file_fail_error_code">删除文件失败! 错误码：</string>
+    <!--ReadFile-->
+    <string name="Read_Error">校验文件内容读取有误</string>
+    <string name="Read_Success">校验文件读取成功</string>
+    <string name="Read_Fail">校验文件读取失败</string>
+    <!--StoreBitmap-->
+    <string name="load_the">正在加载</string>
+    <string name="failure">失败</string>
+    <string name="start_load_the_number">开始加载第</string>
+    <string name="picture_load_ok">图片加载完成</string>
+    <string name="loading_the_3rd_picture">正在加载三张图片</string>
+    <string name="Expend_150_second">图片加载消耗大约150秒</string>
+    <!--StoreEmvParams-->
+    <string name="is_loading_tran_parameter">正在传输EMV参数</string>
+    <string name="load_term_ok">加载终端参数成功</string>
+    <string name="load_term_fail">加载终端参数失败 </string>
+    <string name="load_AID_ok">加载 AID 成功</string>
+    <string name="load_AID_fail">加载 AID 失败 </string>
+    <string name="load_CAPK_ok">加载 CAPK 成功</string>
+    <string name="load_CAPK_fail">加载 CAPK 失败</string>
+    <!--StoreFile-->
+    <string name="file_reading">文件存储:数据读取，请稍等....</string>
+    <string name="file_inputting">文件存储:数据输入，请稍等....</string>
+    <string name="file_store_success">文件存储成功</string>
+    <string name="file_store_fail">文件存储失败</string>
+    <string name="file_not_exist">文件不存在</string>
+    <!--StoreFile2-->
+    <!--StoreLogo-->
+    <string name="save_logo">保存Logo</string>
+    <string name="preserve_Logo_success">保存logo成功</string>
+    <string name="preserve_Loge_fail">保存logo失败</string>
+
+    <!--#########Test#########-->
+    <string name="Test_OK">测试结果：OK</string>
+    <string name="Test_false">测试结果：FALSE</string>
+    <string name="operate_on_pinpad">请对前屏操作</string>
+    <string name="swipe_IC_card_please">请刷IC卡</string>
+    <string name="swipe_MSR_card_please">请刷磁条卡</string>
+    <string name="swipe_NFC_card_please">请刷非接卡</string>
+    <string name="input_1to8_on_the_pos">请在前屏输入1-8键值</string>
+    <string name="All_tests_are_OK">前端测试通过!</string>
+    <string name="Test_fail_please_check_out">测试失败,请在上划查看红色失败项</string>
+    <string name="please_do">请先进行</string>
+    <string name="please_to_do">请下一步进行</string>
+    <string name="operation_first">操作</string>
+    <string name="load_EMV_complete">加载EMV参数完成</string>
+    <string name="Reading_CheckFile">校验文件读取:数据读取，请稍等....</string>
+
+
+
+    <!--***************************Process*********************************-->
+    <!--###Exscreen###-->
+    <string name="Cynovo_2222_333"><![CDATA[矽鼎科技&2222&333&]]></string>
+    <string name="test_screen_standby">测试小屏待机功能</string>
+    <string name="make_sure_Loaded_images">执行轮播前请确认已加载图片,</string>
+    <string name="else_screen_is_empty">否则前屏显示为白屏</string>
+    <!--###initialize###-->
+    <string name="clear_EMV">"清除 EMV参数 "</string>
+    <string name="do_not_repeat">已经进行过，请勿重复进行</string>
+    <string name="In_this_order_to_load_key">加载密钥的过程中，需要按照先后顺序进行加载传输密钥，加载主密钥，加载工作密钥,正在加载传输密钥...</string>
+    <string name="download_transfer_key_for_master_encryption">下载传输秘钥成功！传输密钥是为了给主密钥加密</string>
+    <string name="download_KPK_fail_error_code">下载KPK失败，错误码：</string>
+    <string name="master_key_for_work_key_loading_master_key">主密钥是为了给工作密钥加密，正在加载主密钥......</string>
+    <string name="loading_work_key">正在加载工作密钥...</string>
+
+    <string name="transfer_EMV_param_for_after_EMV_handler">正在传输EMV参数,请稍等,EMV参数传递是为了进行后期的EMV处理</string>
+
+    <!--###trade###-->
+    <string name="EMV_data_type">"EMV数据类型: "</string>
+    <string name="result_of_pinpad">"密码键盘结果: "</string>
+
+    <string name="EMV_data">"EMV数据: "</string>
+    <string name="text_non_access_card_before_search_searching_being">在进行非接卡测试之前，请先进行非接卡的搜索功能。正在搜索非接卡</string>
+    <string name="init_before_search_card">请保证搜卡操作进行之前，初始化工作已经完成</string>
+    <string name="analog_search_card_input_password_or_EMV_process">交易流程模拟搜卡，输入密码或者EMV处理的综合指令</string>
+    <string name="detected_magnetic_card">检测到磁条卡</string>
+    <string name="detected_IC_card">检测到IC卡</string>
+    <string name="detected_non_access_card">检测到非接卡(</string>
+    <string name="unkonwn_card_type">未知卡类别</string>
+    <string name="error_code">错误码：</string>
+    <string name="picture_load_ok_can_slide">图片加载完成,可以进行图片轮播的操作</string>
+    <string name="please_load_picture_after_show">请先加载图片，再进行图片显示的功能</string>
+    <string name="please_search_card_first">请先进行搜卡操作</string>
+    <string name="EMV_processing_fail">失败！错误码: </string>
+    <string name="whether_IC_card">是否IC卡: </string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="abnormal_result">结果异常:</string>
+    <string name="already_terminated">已中止</string>
+    <string name="time_out">失败, 原因：操作超时</string>
+    <string name="fail_for">失败, 原因：</string>
+    <string name="operation_fail">操作失败！错误码: </string>
+    <string name="fail_description">错误描述</string>
+
+
+    <!--************************Public Keys********************************-->
+    <string name="action_settings">设置</string>
+    <string name="operation">命令操作</string>
+    <string name="stop">停止</string>
+    <string name="express">明文：</string>
+    <string name="OBcode">一维码</string>
+    <string name="sign">签到</string>
+    <string name="error">错误：</string>
+    <string name="read_file">文件读取</string>
+    <string name="data_read">数据读取</string>
+    <string name="length">长度</string>
+    <string name="data_input">数据输入</string>
+    <string name="file_input">文件输入</string>
+    <string name="consume">消费</string>
+    <string name="stop_action">终止指令</string>
+    <string name="stop_success">终止成功！</string>
+    <string name="no_task_run">没有正在执行的任务</string>
+
+    <!--****************************8583_Transact******************************-->
+    <string name="transaction_8583">8583交易</string>
+    <string name="search_non_access_card_NFCSelect_1">搜非接卡|NfcSelect-1</string>
+    <string name="search_non_access_card_NFCApdu_2">搜非接卡|NfcApdu-2</string>
+    <string name="search_non_card_MiAtuth_3">搜非接卡|MiAtuth-3</string>
+    <string name="search_non_access_card_MiTransfer_4">搜非接卡|MiTransfer-4</string>
+    <string name="search_non_access_MiRestore_5">搜非接卡|MiRestore-5</string>
+    <string name="search_non_access_card_MiReadBlock_6">搜非接卡|MiReadBlock-6</string>
+    <string name="search_non_access_MiWriteBlock_7">搜非接卡|MiWriteBlock-7</string>
+    <string name="search_non_access_card_MiIncrement_8">搜非接卡|MiIncrement-8</string>
+    <string name="search_non_access_MiDecrement_9">搜非接卡|MiDecrement-9</string>
+    <string name="search_non_access_card">请先进行非接卡搜索操作</string>
+
+    <!--*************************Activity_main*******************************-->
+    <string name="clear_operation_instruction">清空操作指令</string>
+    <string name="function_test">功能测试</string>
+    <string name="process_test">流程测试</string>
+    <string name="is_running">正在执行的类名是class:</string>
+    <string name="Load_Use_Key">秘钥加载及使用</string>
+    <string name="input_key_to_test_ksn_update">输密用于测试更新KSN后是否使用新的工作秘钥进行运算</string>
+    <string name="initFileSystem">初始化文件系统</string>
+
+    <string name="nfc_emv">非接卡EMV</string>
+    <string name="position">当前位置：</string>
+    <string name="root">根目录</string>
+    <string name="app_version">当前软件版本: </string>
+
+</resources>
+
+

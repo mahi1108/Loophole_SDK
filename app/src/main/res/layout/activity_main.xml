@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <Button
+        android:id="@+id/btn_clear_lv"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_operation_instruction"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/lv_msg"
+        android:divider="@color/black"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/edit_text"
+        >
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/showCurrentPosition"
+        android:textColor="@color/light_black"
+        android:textSize="16sp"/>
+    <ListView
+        android:id="@+id/my_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/light_black"
+        android:background="@color/white"
+        android:dividerHeight="2px"
+        >
+    </ListView>
+
+    <ImageView
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showHandImage"/>
+</LinearLayout>
