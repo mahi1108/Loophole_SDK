@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Loophole SDK.iml" filepath="$PROJECT_DIR$/Loophole SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loophole_SDK.iml" filepath="$PROJECT_DIR$/Loophole_SDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdktool/sdktool.iml" filepath="$PROJECT_DIR$/sdktool/sdktool.iml" />
     </modules>

@@ -47,6 +47,8 @@ public class MainActivity extends Activity{
     private String actionName = "";
     private TextView tvShowPosition;
     private boolean initializedone=false;
+    private int item_position = 0;
+    private String selected_child_name = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,11 +90,13 @@ public class MainActivity extends Activity{
 
                         setContentView(R.layout.activity_menu_selection);
 
-                        Button readCard = (Button) findViewById(R.id.readCard);
-                        Button swipeCard = (Button) findViewById(R.id.swipeCard);
-                        Button enterPin = (Button) findViewById(R.id.enterPin);
+                        Button qrcodescan = (Button) findViewById(R.id.qrcodescan);
+                        Button chipreading = (Button) findViewById(R.id.chipreading);
+                        Button swipecard = (Button) findViewById(R.id.swipecard);
+                        Button scancard = (Button) findViewById(R.id.scancard);
                         Button print = (Button) findViewById(R.id.print);
-                        Button qrCode = (Button) findViewById(R.id.qrCode);
+                        Button applepay = (Button) findViewById(R.id.applepay);
+
 
                         View.OnClickListener listener = new View.OnClickListener() {
                             @Override
@@ -107,13 +111,72 @@ public class MainActivity extends Activity{
 
                                 reloadOnResume();
 
+                        // [Basic Test-1, Pinpad-2, Storage-3, Card-4, Exscreen-5, Scan-6, Print-7, scangun-9, Mifare-10, pinpad]
+
+                                System.out.println("**************************************************");
+
+                                System.out.println(allData);
+
+                                System.out.println("**************************************************");
+
+
+                                switch (v.getId())
+                                {
+
+                                    case R.id.swipecard:
+
+                                        item_position = allData.indexOf("Card-4");
+                                        selected_child_name = "Search Card-1";
+                                        break;
+                                    case R.id.chipreading:
+                                        item_position = allData.indexOf("Card-4");
+                                        selected_child_name = "EMV Process-2";
+                                        break;
+                                    case R.id.scancard:
+                                        item_position = allData.indexOf("Card-4");
+                                        selected_child_name = "Search Card-1";
+                                        break;
+                                    case R.id.qrcodescan:
+                                        item_position = allData.indexOf("Scan-6");
+                                        selected_child_name = "Scan QRcode";
+
+                                        break;
+                                    case R.id.print:
+                                        item_position = allData.indexOf("Print-7");
+                                        selected_child_name = "Text-2";
+                                        break;
+                                    case R.id.applepay:
+                                        item_position = allData.indexOf("Card-4");
+                                        selected_child_name = "Search Card-1";
+                                        break;
+                                }
+
+
+                                actionName = allData.get(item_position);
+                                if(BaseAction.actionName.containsKey(actionName)){
+                                    BaseAction object =BaseAction.actionName.get(actionName);
+                                    try {
+                                        object.action(actionName,mContext);
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }else{
+                                    if(!dirs.contains(actionName)){
+                                        dirs.add(actionName);
+                                    }
+                                    getChildByDirs();
+                                }
+                                showCurrentPosition();
+
+
                             }
                         };
-                        readCard.setOnClickListener(listener);
-                        swipeCard.setOnClickListener(listener);
-                        enterPin.setOnClickListener(listener);
+                        qrcodescan.setOnClickListener(listener);
+                        chipreading.setOnClickListener(listener);
+                        swipecard.setOnClickListener(listener);
+                        scancard.setOnClickListener(listener);
                         print.setOnClickListener(listener);
-                        qrCode.setOnClickListener(listener);
+                        applepay.setOnClickListener(listener);
 
                     }
                 }, 2000);
@@ -275,7 +338,39 @@ public class MainActivity extends Activity{
         for (int j = 0; j < childListByParent.size(); j++) {
             allData.add(childListByParent.get(j));
         }
-       refreshGridView();
+
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+
+        System.out.println(allData); //for print  [QRcode-5, Text-2, Busy-10, OBcode-4, Print Test, Paper Detect-1, Feed-6, Picture-3, receipt-7, Busy-12]
+
+           // for Card4 ->  [Search Card-1, EMV Issuing Bank Data-9, EMV Process-2, Direct Trade-8, ICCard Detect-4, CardSlot Detect-3, LoadRelateKey-11]
+
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+
+
+        refreshGridView();
+
+         item_position = allData.indexOf(selected_child_name);
+
+
+        actionName = allData.get(item_position);
+        //先判断是目录文件还是操作事件
+        if(BaseAction.actionName.containsKey(actionName)){
+            BaseAction object =BaseAction.actionName.get(actionName);
+            try {
+                object.action(actionName,mContext);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else{
+            //如果是目录文件，获取目录文件的子文件
+            if(!dirs.contains(actionName)){
+                dirs.add(actionName);
+            }
+            getChildByDirs();
+        }
+        showCurrentPosition();
+
     }
 
     private void showCurrentPosition(){
@@ -296,13 +391,16 @@ public class MainActivity extends Activity{
 
     public void reloadMenuView( )
     {
+
         setContentView(R.layout.activity_menu_selection);
 
-        Button readCard = (Button) findViewById(R.id.readCard);
-        Button swipeCard = (Button) findViewById(R.id.swipeCard);
-        Button enterPin = (Button) findViewById(R.id.enterPin);
+        Button qrcodescan = (Button) findViewById(R.id.qrcodescan);
+        Button chipreading = (Button) findViewById(R.id.chipreading);
+        Button swipecard = (Button) findViewById(R.id.swipecard);
+        Button scancard = (Button) findViewById(R.id.scancard);
         Button print = (Button) findViewById(R.id.print);
-        Button qrCode = (Button) findViewById(R.id.qrCode);
+        Button applepay = (Button) findViewById(R.id.applepay);
+
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
@@ -317,12 +415,72 @@ public class MainActivity extends Activity{
 
                 reloadOnResume();
 
+                // [Basic Test-1, Pinpad-2, Storage-3, Card-4, Exscreen-5, Scan-6, Print-7, scangun-9, Mifare-10, pinpad]
+
+                System.out.println("**************************************************");
+
+                System.out.println(allData);
+
+                System.out.println("**************************************************");
+
+
+                switch (v.getId())
+                {
+
+                    case R.id.swipecard:
+
+                        item_position = allData.indexOf("Card-4");
+                        selected_child_name = "Search Card-1";
+                        break;
+                    case R.id.chipreading:
+                        item_position = allData.indexOf("Card-4");
+                        selected_child_name = "EMV Process-2";
+                        break;
+                    case R.id.scancard:
+                        item_position = allData.indexOf("Card-4");
+                        selected_child_name = "Search Card-1";
+                        break;
+                    case R.id.qrcodescan:
+                        item_position = allData.indexOf("Scan-6");
+                        selected_child_name = "Scan QRcode";
+
+                        break;
+                    case R.id.print:
+                        item_position = allData.indexOf("Print-7");
+                        selected_child_name = "Text-2";
+                        break;
+                    case R.id.applepay:
+                        item_position = allData.indexOf("Card-4");
+                        selected_child_name = "Search Card-1";
+                        break;
+                }
+
+
+                actionName = allData.get(item_position);
+                if(BaseAction.actionName.containsKey(actionName)){
+                    BaseAction object =BaseAction.actionName.get(actionName);
+                    try {
+                        object.action(actionName,mContext);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }else{
+                    if(!dirs.contains(actionName)){
+                        dirs.add(actionName);
+                    }
+                    getChildByDirs();
+                }
+                showCurrentPosition();
+
+
             }
         };
-        readCard.setOnClickListener(listener);
-        swipeCard.setOnClickListener(listener);
-        enterPin.setOnClickListener(listener);
+        qrcodescan.setOnClickListener(listener);
+        chipreading.setOnClickListener(listener);
+        swipecard.setOnClickListener(listener);
+        scancard.setOnClickListener(listener);
         print.setOnClickListener(listener);
-        qrCode.setOnClickListener(listener);
+        applepay.setOnClickListener(listener);
+
     }
 }

@@ -20,72 +20,86 @@
             android:paddingTop="5dp"
             android:layout_margin="10dp">
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Read Card"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:layout_margin="5dp"
-                    android:textSize="20sp"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:background="@drawable/click_event"
-                    android:textColor="#FFFFFF"
-                    android:id="@+id/readCard"/>
 
             <Button
+                android:id="@+id/swipecard"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
                 android:text="Swipe Card"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:layout_margin="5dp"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/click_event"
                 android:textColor="#FFFFFF"
-                android:id="@+id/swipeCard"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
+                android:id="@+id/chipreading"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Enter Pin"
-                android:gravity="center"
-                android:textStyle="bold"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif-smallcaps"
                 android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="EMV Chip Reading"
                 android:textColor="#FFFFFF"
-                android:id="@+id/enterPin"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
 
             <Button
+                android:id="@+id/scancard"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Scan Card"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/print"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
                 android:text="Print"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:layout_margin="5dp"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/click_event"
                 android:textColor="#FFFFFF"
-                android:id="@+id/print"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
+                android:id="@+id/qrcodescan"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="QR Code"
-                android:gravity="center"
-                android:textStyle="bold"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif-smallcaps"
                 android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="QR Code Scan"
                 android:textColor="#FFFFFF"
-                android:id="@+id/qrCode"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
 
+            <Button
+                android:id="@+id/applepay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/click_event"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Apple Pay"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
